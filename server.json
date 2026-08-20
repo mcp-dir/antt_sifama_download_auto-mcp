@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/antt_sifama_download_auto-mcp",
+  "title": "ANTT SIFAMA: Download de Auto de Infração",
+  "description": "ANTT SIFAMA: Download de Auto de Infração, official-source lookup. Platform-hosted, pay per query wi",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/antt_sifama_download_auto-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_antt_sifama_download_auto"
+    }
+  ]
+}
